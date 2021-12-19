@@ -1,0 +1,4 @@
+make -j1 check V=1 VERBOSE=1 || :
+pushd examples/
+./rnnoise_demo /builddir/build/BUILD/rnnoise/sample/otter.pcm /builddir/build/BUILD/rnnoise/sample/otter_d.pcm
+popd

@@ -1,5 +1,5 @@
---enable-static
---disable-shared
+--disable-static
+--enable-shared
 --disable-assertions
 --enable-examples
 --disable-doc
